@@ -34,30 +34,30 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # digital_botz client config
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID = os.environ.get("API_ID", "20018243")
+    API_HASH = os.environ.get("API_HASH", "81233670b0c1e1b726199bcd4ca3effc")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8154879802:AAHi9doM-9du3nbjTXO7cXkS3eLBcZy80bI") 
 
     # premium account string session required 😢 
-    STRING_SESSION = os.environ.get("STRING_SESSION", "")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "BQAtdNIABm8Jc5PIRNo599DWD3GDB7TYYNC8L-7uFZT-uUvUcXGWjaIO_lhgHuItABW5jT_RHxk-MfvBHBYMplwVEMa4rSqbvbhYmSBaL9Hmft4U2AW-WcqlHPkuJK93nUfJ7T4b2FWAKgRJzClJxtQqi3NKloktVRqDqz8P61U0XG5u6upNW9smq29tizEtSvRzd-mEna6WE3umc1Kc7ajInid0Fb2mjr4K_xQ2qfRBaZA8ltCyD8U8yekVXhRWtzq1O7cqxgupBBPcwh8YBTrtuSGiHD35zel2Jwz75luHgac4Q1VD9I7fovfSf4ZE07-QbRu-671ARK1WimL7fqoPAOQjQwAAAAH")
     
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Digital_Rename_Bot")     
-    DB_URL = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","cluster0")     
+    DB_URL = os.environ.get("DB_URL","mongodb+srv://TelegramBots:TelegramBots@cluster0.ztttygj.mongodb.net/")
  
     # other configs
-    RKN_PIC = os.environ.get("RKN_PIC", "https://graph.org/file/847a1012f67590b715252-dc85e89a8b1d79f8bd.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6267863649').split()]
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002232612097"))
+    RKN_PIC = os.environ.get("RKN_PIC", "https://graph.org/file/dd0fbb16126ef132a76f2-1470dc1c3386a5a442.jpg")
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7195674717').split()]
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002178664515"))
 
     # free upload limit 
     FREE_UPLOAD_LIMIT = 6267863649 # calculation 6*1024*1024*1024=results
     
     #vforce subs
     try:
-        FORCE_SUB = int(os.environ.get("FORCE_SUB", "GMoviesX")) 
+        FORCE_SUB = int(os.environ.get("FORCE_SUB", "FOXMOVIESOFFICIALCHANNEL")) 
     except:
-        FORCE_SUB = os.environ.get("FORCE_SUB", "GmoviesX")
+        FORCE_SUB = os.environ.get("FORCE_SUB", "FOXMOVIESOFFICIALCHANNEL")
         
     # wes response configuration     
     PORT = int(os.environ.get("PORT", "8080"))
@@ -72,12 +72,12 @@ Tʜɪs Is Aɴ Aᴅᴠᴀᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀғᴜʟ Rᴇɴᴀ�
 Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : \n<a href=https://t.me/UmeshGurjar1390>😊Dᴇᴠɪʟ Lᴜᴄɪғᴇʀ💞</b></a>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
-├🤖 ᴍy ɴᴀᴍᴇ : {}
-├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : {}
+├🤖 ᴍy ɴᴀᴍᴇ : {@samples_renames_bot}
+├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : {@FOXMOVIESOWNER}
 ├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : {}
-├📕 Lɪʙʀᴀʀy : {}
-├✏️ Lᴀɴɢᴜᴀɢᴇ: {}
-├💾 Dᴀᴛᴀ Bᴀꜱᴇ: {}
+├📕 Lɪʙʀᴀʀy : {nothing}
+├✏️ Lᴀɴɢᴜᴀɢᴇ: {English,Tamil}
+├💾 Dᴀᴛᴀ Bᴀꜱᴇ: {https://cloud.mongodb.com/}
 ├📊 ᴠᴇʀsɪᴏɴ: <a href=https://github.com/UmeshGurjar>{}</a></b>     
 ╰───────────────⍟ """
 
