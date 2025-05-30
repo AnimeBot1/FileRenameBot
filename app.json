@@ -24,7 +24,7 @@
             "value": "8154879802:AAHi9doM-9du3nbjTXO7cXkS3eLBcZy80bI"
         },
         "ADMIN": {
-            "description":"Add Your User ID multiple is use space to split"7195674717"
+            "description":"Add Your User ID multiple is use space to split"
         },
         "LOG_CHANNEL": {
             "description":"Bot Log Sending Channel (just create a private channel and add bot to admin and take channel id to add this variable) ⚠️ id startswith -100 must",
